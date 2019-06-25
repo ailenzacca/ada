@@ -1,0 +1,57 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    background-image: url(https://s2.best-wallpaper.net/wallpaper/2880x1800/1701/Pink-rose-flowers-wood-background_2880x1800.jpg);
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position-y: -226px;
+    position: relative;
+}
+
+.typobanner {
+    background-image: url(http://max.soledad.pencidesign.com/soledad-craft-diy-blog2/wp-content/uploads/sites/68/2018/09/logo-o.png);
+    height: 100px;
+    width: 20%;
+    background-size: cover;
+    position: absolute;
+    left: 50%;
+    top: 150px;
+    transform: translateX(-100px);
+}
+
+.containerheader {
+    height: 30px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.liheader {
+    list-style: none;
+    display: inline-block;
+    
+}
+
+.linav {
+    list-style: none;
+    display: inline-block;
+}
+
+.ulheader {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #fbf3f2;
+}
+
+.container {
+    height: 656px;
+    width: 98%;
+}
