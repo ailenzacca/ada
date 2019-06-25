@@ -1,0 +1,73 @@
+div {
+    margin: 0px;
+    overflow: hidden;
+    font-size: 30px;
+}  
+
+body {
+    margin: 0px;
+}
+#contact {
+     background-color: #E07A5F;
+     text-align: center;
+     
+ }
+
+#telephone {
+    background-color:#3D405B;
+    text-align: center;
+}
+
+.red-text {
+    background-color: #32ac38;
+}
+
+.big-text {
+    font-size: 30px;
+}
+
+#tercero {
+    background-color: #F4ACB7;
+    text-align: center;
+}
+
+p {
+    font-family: "Lato";
+    font-weight: 100;
+    margin: 40px 59px;
+    text-align: center;
+  
+ }
+
+ h1 {
+    font-family: "Montserrat";
+    overflow: hidden;
+}
+
+h2 {
+    font-family: "Montserrat";
+    border-bottom: 2px solid black;
+}
+
+strong {
+    border:3px solid black;
+}
+
+span {
+    border-bottom: 2px dashed greenyellow;
+}
+
+#first {
+    border-left: 2px solid #9D8189;
+    padding-left: 5px;
+}
+
+#third {
+    border-left: 2px solid #9D8189;
+    padding-left: 5px;
+}
+
+#second {
+    border-right: 2px solid #9D8189;
+    padding-right: 5px;
+}

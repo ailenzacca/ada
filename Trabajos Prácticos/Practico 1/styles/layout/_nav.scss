@@ -1,0 +1,204 @@
+nav {
+
+    @media (max-width: 360px) {
+        display: none;
+
+    }
+
+    ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        
+        
+        li {
+            list-style: none;
+            margin-right: 66px;
+            color: $text-color;
+            
+            a{
+                text-decoration: none;
+                &:hover {
+                    color: orange;
+                }
+                
+                &:visited{
+                    color: $text-color;
+                    &:hover {
+                        color: orange;
+                    }
+                    
+                   
+                }
+                
+            }
+            &:hover {
+                color: orange;
+            }
+        }
+
+        .plato {
+            position: relative;
+
+            &:hover {
+                
+
+                a{
+                    text-decoration: none;
+                    &:visited{
+                        color: black;
+                    }
+
+                    
+                }
+
+                .subul {
+                    display: block;
+                }
+                .subli {
+                    display: block;
+                    color: black;
+                }
+
+                
+            }
+
+            .subul {
+                display: none;
+                flex-direction: column;
+                list-style: none;
+                position: absolute;
+                padding: 0;
+                background-color: lightgrey;
+                width: 89px;
+
+                
+
+                .subli {
+          
+                    
+                }
+            }
+        }
+            
+    }
+}
+
+// .nav-bar {
+//     width: 100%;
+//     display: flex;
+//     justify-content: center;
+//     position: relative;
+
+//     .nav-ul {  
+//         list-style: none;
+//         display: flex;
+//         text-align: center;
+//         margin: 14px auto;
+            
+//             .nav-li {
+//                 list-style: none;
+//                 display: inline-block;
+//                 margin-right: 54px;
+//                 color: $text-color;
+//                 text-align: initial;
+
+//                 a{
+                    
+//                     text-decoration: none;
+                  
+//                     &:visited{
+//                         color: $text-color;
+//                         &:hover {
+//                             color: orange;
+//                         }
+//                     }
+                    
+//                 }
+
+//                 &:hover {
+//                     color: orange;
+//                 }
+//             }
+            
+            
+//             .nav-li-plato {
+                
+                
+//                 &:hover {
+                
+//                     a{
+//                         text-decoration: none;
+//                         &:visited{
+//                             color: black;
+//                         }
+                        
+//                     }
+
+//                     .platos-ul {
+//                         display: block;
+                        
+
+//                         .plato-li {
+//                             display: block;
+//                             color: black;
+                            
+
+//                         }
+//                     }
+//                 }
+
+//                 .platos-ul {
+//                     display: none;
+//                     flex-direction: column;
+//                     list-style: none;
+//                     position: absolute;
+//                     padding: 0;
+//                     background-color: lightgrey;
+//                     width: 89px;
+                   
+
+
+//                     .plato-li {
+
+            
+//                     }
+//                 }
+//                 }
+            
+
+        
+//     }
+// }
+
+.nav-menu {
+
+    p {
+        color: white;
+        text-align: center;
+        padding-bottom: 10px;
+        padding-top: 10px;
+
+        i {
+            color: white;
+            text-align: center;
+            margin-right: 17px;
+            
+        }
+        
+    }
+
+    
+    display: none;
+    background-color: $main-color;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 40px;
+    
+
+    @media (max-width: 360px) {
+        display: block;
+
+    }
+}

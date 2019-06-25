@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../styles/css/main.css">
+    <title>Home</title>
+    <link href="https://unpkg.com/nes.css/css/nes-core.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body id="home">
+    <h1>ABDUCTION</h1>
+    <div class="container-texto">
+        <p>¡Un/a astronauta ha sido capturado por una nave extraterrestre! Para escapar, él o ella debe responder correctamente todas las preguntas de un desafío, jugar contra los aliens o desafiar a un compatriota: donde el ganador será libreeee!</p>
+    </div>
+    <div id="nivel-container">
+        <div class="subir-nivel nes-progress">
+            <div id="barrita"></div>
+        </div>
+        
+    </div>
+    <div class="botones">
+        <button class="buttonHome nes-btn is-success" id="jugar" onclick="inciarJuego()">JUGAR</button>
+        <button class="buttonHome nes-btn is-success" id="desafio" onclick="inciarDesafio()">DESAFIOS</button>
+        <button class="buttonHome nes-btn is-success" id="competencia" onclick="inciarCompetencia()">COMPETENCIAS</button>
+    </div>
+    <div class="pendiente-container">
+        <div class="titulo-container">
+            <h2>Partidas Pendientes</h2>
+        </div>
+        <div id="pendiente"></div>
+    </div>
+    <script type="text/javascript" src="../scripts/home.js"></script>
+</body>
+</html>

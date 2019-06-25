@@ -1,0 +1,365 @@
+#bookclub {
+    background-color: white;
+    height: 214px;
+    text-align: center;
+}
+
+nav {
+    background-color: white;
+    height: 72px;
+    border-bottom: 0.1px solid rgb(234,234,234);
+    border-top: 0.1px solid rgb(234,234,234);
+}
+
+#slide {
+    background-image: url(https://demo.tagdiv.com/newspaper_book_club/wp-content/uploads/2016/09/25.jpg);
+    height: 518px;
+    background-size: cover;
+    background-position-y: 40%; 
+}
+
+#wordslide {
+    margin-left: 62px;
+    transform: translateY(409px);
+    color: white;
+}
+
+#contenido {
+    margin: 0 auto;
+    width: 80%;
+    height: 3820.58px;
+}
+
+main{
+    width: 72%;
+    background-color: white;
+    float: left;
+    overflow: hidden;
+    height: 100%;
+}
+
+aside {
+    width: 25%;
+    height: 100%;
+    background-color: #AF9BB6;
+    float: left;
+}
+
+#section1 {
+    background-color: white;
+    height: 656px;
+    width: 98%;
+    margin-top: 2%;
+
+}
+
+#section2 {
+    background-color: white;
+    height: 3116px;
+    width: 100%;
+    
+}
+
+.column {
+    float: left;
+    margin: 2%;
+    width: 362px;
+    height: 656px;
+}
+
+.article1 {
+    background-color: white;
+    height: 378px;
+    overflow: hidden;
+}
+
+.relac {
+    background-color:white;
+    height: 50px;
+    overflow:hidden;
+}
+
+section {
+    overflow:hidden
+}
+
+.right  {
+    float: right;
+}
+
+#box1,#box3 {
+    height: 13%;
+    margin-top: 4%;
+}
+
+
+#box2,#box4 {
+    margin-top: 5%;
+    height: 13%;
+    margin-bottom: 20px;
+}
+
+.diez {
+    background-color: white;
+    width: 96%;
+    height: 8.95%;
+    margin-left: 2%;
+}
+
+/* 
+5.95%; height
+
+*/
+
+.space {
+    height: 0.95%;
+}
+
+
+
+
+#instagram {
+    background-color: #FFCAD4;
+    width: 1440px;
+    height: 200px;
+    clear: both;
+}
+
+#contacto {
+    background-color:#C1CAD6; 
+    width: 1440px;
+    height: 400px;
+    clear: both;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    width: 1197px;
+    height: 36px;
+    background-color:white; 
+    overflow: hidden;
+}
+
+#copyright {
+    float: left;
+    text-align: left;
+    
+}
+
+#footerlist {
+    float: right;
+    text-align: right;
+    height: 18px;
+    
+}
+
+#logo {
+    width: 214px;
+    height: 167,63px;
+    padding: 26px;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+    margin: 27px auto;
+}
+
+li {
+    display: inline-block;
+    margin-right: 25px;
+}
+
+#ulfooter {
+    list-style: none;
+    text-align: right;
+    float: right;
+}
+
+.lifooter {
+    display: inline-block;
+}
+
+#banner {
+    width: 1440px;
+    height: 518px;
+}
+
+#adventurepic {
+    width: 325px;
+    height: 125px;
+    margin-top: -11px;
+}
+
+#misterypic {
+    width: 325px;
+    height: 125px;
+    margin-top: -11px;
+}
+
+#picbox1 {
+    width: 89px;
+    margin-top: 8px;
+}
+
+.caja1, .fecha {
+    float: right;
+    margin-right: 149px;
+}
+
+.caja1 {
+    font-size: 10px;
+}
+
+.fecha {
+    margin-top: -19px;
+}
+
+#picbox2 {
+    width: 89px;
+    margin-top: 8px;
+}
+
+#picbox3 {
+    width: 89px;
+    margin-top: 8px;    
+}
+
+.caja2 {
+    margin-top: -52px;
+    font-size: 10px;
+}
+
+.caja2, .fecha2 {
+    margin-left: 110px;
+}
+
+#picbox4 {
+    width: 89px;
+    margin-top: 8px;  
+}
+
+.piclatest {
+    width: 324px;
+    height: 100%;
+    float: left;
+    background-size: cover;
+    
+}
+
+#img1 {
+    background-image: url(https://demo.tagdiv.com/newspaper_book_club/wp-content/uploads/2016/09/45-324x235.jpg);  
+}
+
+#img2 {
+    background-image: url(https://demo.tagdiv.com/newspaper_book_club/wp-content/uploads/2016/09/44.jpg)
+}
+
+#img3 {
+    background-image: url(https://demo.tagdiv.com/newspaper_book_club/wp-content/uploads/2016/09/43.jpg)
+}
+
+#img4 {
+    background-image: url(https://demo.tagdiv.com/newspaper_book_club/wp-content/uploads/2016/09/42.jpg)
+}
+
+#img5 {
+    background-image: url(https://demo.tagdiv.com/newspaper_book_club/wp-content/uploads/2016/09/41.jpg)
+}
+
+#img6 {
+    background-image: url(https://demo.tagdiv.com/newspaper_book_club/wp-content/uploads/2016/09/40.jpg)
+}
+
+#img7 {
+    background-image: url(https://demo.tagdiv.com/newspaper_book_club/wp-content/uploads/2016/09/39.jpg)
+}
+
+#img8 {
+    background-image: url(https://demo.tagdiv.com/newspaper_book_club/wp-content/uploads/2016/09/38.jpg)
+}
+
+#img9 {
+    background-image: url(https://demo.tagdiv.com/newspaper_book_club/wp-content/uploads/2016/09/37.jpg)
+}
+
+#img10 {
+    background-image: url(https://demo.tagdiv.com/newspaper_book_club/wp-content/uploads/2016/09/Enchantment-Book-Cover-Best-Seller1-1068x1625.jpg)
+}
+
+.titlelatest {
+    width: 326px;
+    
+}
+
+.articletext {
+    float: left;
+    padding-left:15px;
+}
+
+.readmore {
+    background-color:#D77A61;
+    border: 4px solid #D77A61;
+    color: white;
+}
+
+#aboutmeimg {
+    background-image: url(https://demo.tagdiv.com/newspaper_book_club/wp-content/uploads/2016/12/avatar-150x150.png);
+    background-size: cover;
+    height: 262px;
+    width: 262px;
+    margin: 0 auto;
+    border-radius: 50%;
+    transform: scale(0.7);
+
+}
+
+.asideart {
+    padding: 10px;
+    transform: translateY(-28px);
+}
+
+#aboutme {
+    
+    width: 288px;
+}
+
+.info {
+    background-color: pink;
+
+   /* margin-top: -7.5%;
+   */
+    text-align: center;
+    float: center;
+}
+
+.titleaside {
+   
+    text-align: left;
+
+}
+
+.imgtouch {
+    width: 90.33px;
+    height: 93px;
+    background-color: white;
+    display: inline-block;
+    margin-left: -1px;
+    border: 0.7px solid grey;
+}
+
+#touchig {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKCzU5dyVy1HkucM2O6jfmNk6AcXCSJdnx5Mi6Aws5DySDpqB6);
+    
+}
+
+.imgstouch {
+    background-size: cover;
+    width: 65px;
+    height: 57px;
+    margin: 0 auto;
+}

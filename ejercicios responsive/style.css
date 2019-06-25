@@ -1,0 +1,544 @@
+@font-face {
+    font-family: "Roboto";
+    src: url(fonts/Roboto-Bold.ttf);
+    font-weight: bold;
+
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(fonts/Roboto-Regular.ttf);
+    font-weight: normal;
+}
+
+    body {
+    background-color: #f5f5F5;
+    background-image: url(img/background.jpg);
+}
+
+.clear {
+    clear: both;
+}
+
+.column {
+    width: 80%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.card {
+    margin: 40px 0;
+    box-shadow: 0px 15px 20px 0px rgba(92, 86, 86, 0.393);
+    border-radius: 10px;
+
+}
+
+.card-header {
+    background-color: #2ECC71;
+    padding: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-body {
+    background-color: #FFF;
+    padding: 40px 0px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.content-container {
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.title {
+    font-family: 'Helvetica';
+    font-weight: 700;
+    font-size: 48px;
+    text-align: center;
+    color: #FFF;
+    margin: 30px 0 10px;
+}
+
+.subtitle {
+    font-family: 'Helvetica';
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.text {
+    font-family: 'Roboto';
+}
+
+
+/* 
+===========================================
+            ABOUT SECTION
+=========================================== 
+*/
+
+.avatar {
+    width: 200px;
+    position: absolute;
+    transform: translate(58px,-2px);
+    border-radius: 50%;
+}
+
+.picture-container {
+    float: left;
+}
+
+.name-container {
+    float: right;
+    width: 64%;
+    text-align: center;
+}
+
+.name {
+    font-family: 'Helvetica';
+    font-weight: 700;
+    font-size: 54px;
+    color: #FFF;
+    margin: 30px 0 10px;
+}
+
+.job {
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 18px;
+    color: #FFF;
+}
+
+.about-me {
+    width: 50%;
+    float: left;
+}
+
+.description {
+    font-family: 'Roboto';
+    line-height: 25px;
+}
+
+.info {
+    float: left;
+    margin-top: 45px;
+}
+
+.info-list {
+    list-style: none;
+    line-height: 25px;
+}
+
+.info-property {
+    display: inline-block;
+    width: 100px;
+    font-family: 'Roboto';
+    color: #424242;
+}
+.info-value {
+    display: inline-block;
+    width: 180px;
+    font-family: 'Roboto';
+    color: #9E9E9E;
+}
+
+
+/* 
+===========================================
+            RESUME SECTION
+=========================================== 
+*/
+
+.timeline-container {
+    float: left;
+    width: 47%;
+    padding: 0 10px;
+}
+
+.timeline-item {
+    padding: 15px 20px 10px;
+    margin-bottom: 20px;
+    border-left: 2px solid #2ECC71;
+    border-bottom: 1px solid lightgrey;
+    border-top: 1px solid lightgrey;
+    border-right: 1px solid lightgrey;
+    border-bottom-right-radius: 3%;
+    border-top-right-radius: 3%;
+    box-shadow: 0px 0px 6px 0px lightgrey;
+
+}
+
+.timeline-title {
+    font-family: 'Helvetica';
+    font-size: 16px;
+    line-height: 18px;
+    margin: 0;
+}
+
+.timeline-period {
+    font-family: 'Helvetica';
+    font-size: 12px;
+    line-height: 18px;
+    color: #2ECC71;
+    margin: 0 0 20px;
+}
+
+.timeline-description {
+    font-family: 'Helvetica';
+    font-size: 15px;
+    line-height: 18px;
+}
+
+
+/* 
+===========================================
+            SERVICES SECTION
+=========================================== 
+*/
+
+.service-section-container {
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.service-block {
+    width: 200px;
+    float: left;
+    text-align: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.service-img-container {
+    width: 120px;
+    height: 120px;
+    background-color: #FAFAFA;
+    margin: 0 auto;
+    border-radius: 50%;
+    box-shadow: 1px 5px 6px lightgrey;
+    
+}
+
+.service-img {
+    height: 64px;
+    margin: 28px 0;
+    
+}
+
+.service-title {
+    font-family: 'Helvetica';
+    font-size: 17px;
+    line-height: 22px;
+    margin-top: 40px;
+}
+
+.service-description {
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.services-client {
+    width: 80px;
+    float: left;
+    margin-left: calc(800px/12 - 40px);
+    margin-right: calc(800px/12 - 40px); 
+}
+
+.pricing-box {
+    border: 1px solid #E0E0E0;
+    width: calc(800px / 3 - 20px);
+    margin: 0 10px;
+    float: left;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 20px 0;
+    text-align: center;
+    border-radius: 4px;
+    box-shadow: 0px 1px 11px lightgrey;
+}
+
+.pricing-button {
+    display: inline-block;
+    font-family: 'Helvetica';
+    background-color: #2ECC71;
+    color: #FFF;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.pricing-text {
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 24px;
+}
+
+
+/* 
+===========================================
+            PORTFOLIO SECTION
+=========================================== 
+*/
+
+.portfolio-img {
+    width: calc(800px / 3 - 10px);
+    margin: 5px;
+    float: left;
+    box-sizing: border-box;
+}
+
+
+/* 
+===========================================
+            BLOG SECTION
+=========================================== 
+*/
+
+.blog-post {
+    width: 44%;
+    float: left;
+    margin: 20px;
+    text-align: center;
+    box-shadow: 0px 0px 6px grey;
+    border-bottom-right-radius: 4%;
+    border-bottom-left-radius: 4%;
+}
+
+.blog-post-img {
+    width: 100%;
+}
+
+.blog-post-title {
+    font-family: 'Helvetica';
+    letter-spacing: 1px;
+}
+
+
+
+/* 
+===========================================
+            CONTACT SECTION
+=========================================== 
+*/
+
+.contact {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.contact-form {
+    margin-top: 40px;
+}
+
+.input-text {
+    width: 100%;
+    height: 26px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    margin-bottom: 18px;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 40px solid #fafafa;
+    padding-left: 40px;
+    outline: none;
+}
+
+.textarea {
+    width: 100%;
+    height: 97px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    margin-bottom: 18px;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 40px solid #fafafa;
+    padding-left: 40px;
+    outline: none;
+    border-bottom: 2px solid #e2e2e2;
+
+}
+
+.send-button {
+    background-color: #2ECC71;
+    -webkit-appearance: none;
+    margin: 0 auto;
+    display: block;
+    outline: none;
+    color: white;
+    font-weight: bold;
+    height: 28px;
+    width: 57px;
+    border: none;
+}
+
+@media (max-width: 960px) {
+    .info {
+        float: none;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .info-list {
+        padding: 0;
+    }
+
+    .about-me{
+        margin: 0 auto;
+        text-align: center;
+        float: none;
+        width: 83%;
+
+    }
+
+    .avatar {
+        position: static;
+        margin: 0 auto;
+        transform: none;
+        display: block;
+    
+    }   
+
+    .picture-container {
+        float: none;
+        margin: 0 auto;
+    }
+
+    .name-container {
+        width: 100%;
+        float: none;
+
+    }
+
+    .name {
+        margin: 30px auto 10px;
+    }
+
+    .info-value {
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+      
+
+    }
+
+    .info-property {
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+   
+    }
+
+    .card-body {
+        float: none;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .timeline-container {
+        width: 90%;
+    }
+
+    .service-block {
+        
+        text-align: center;
+        
+    }
+
+    .services-client {
+        margin: 8px 38px;
+        width: 27%;
+        float: none;
+    }
+
+    .pricing-box {
+        float: none;
+        text-align: center;
+        margin: 21px auto;
+        width: 90%;
+    }
+
+    .portfolio-img {
+        float: none;
+        width: 100%;
+    }
+
+    
+   
+    .contact-form {
+        width: 90%;
+    }
+
+    .contact {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+
+@media (max-width: 1100px) {
+    .service-block {
+        width: 50%;
+    }
+
+    .pricing-box {
+        width: 30.3%;
+    }
+
+    .portfolio-img {
+        width: 32%;
+    }
+
+    .blog-post {
+        width: 90%; 
+        margin: 8px 16px;
+    }
+
+    .blog-post-img {
+        width: 100%;
+    }
+
+    .contact {
+        width: 100%;
+        text-align: center;
+    }
+
+    .services-client {
+        width: 23.3%;
+    }
+
+    .pricing-box {
+        width: 90%;
+    }
+    
+    .portfolio-img {
+        width: 31%;
+    }
+
+    }
+
+    @media (max-width: 848px) {
+        .portfolio-img {
+            width: 90%;
+        }
+    }
+
+    @media (max-width: 1127px) {
+        .pricing-box {
+            margin: 0px auto;
+        }
+
+        .portfolio-img {
+            width: 31%;
+        }
+    }
+
+    @media (max-width: 758px) {
+        .portfolio-img {
+            width: 95%;
+        }
+        
+    }

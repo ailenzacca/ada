@@ -1,0 +1,387 @@
+/*
+    Index
+    -----------------------------------------
+    1. GENERAL
+    2. HEADER
+    3. MAIN SECTION
+    4. VIDEOS SECTION
+    5. MORE NEWS SECTION
+    6. FOOTER
+    7. MEDIA QUERIES
+    -----------------------------------------
+*/
+
+/*
+=============================================
+            1. GENERAL
+=============================================
+*/
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('fonts/ProximaNova-Regular.otf');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'FuturaPT';
+    src: url('fonts/FuturaPTBold.otf');
+    font-weight: bold;
+}
+
+
+
+body {
+    margin: 0;
+    font-family: 'FuturaPT';
+    display: flex;
+}
+
+img {
+    width: 100%;
+}
+
+.page-container {
+    padding-top: 100px;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 100%;
+    display: flex;
+}
+
+section {
+    max-width: 1200px;
+}
+
+p, small {
+    font-family: 'Proxima Nova';
+    color: #2A2A2A;
+    line-height: 23px;
+}
+
+
+/*
+=============================================
+            2. HEADER
+=============================================
+*/
+
+nav {
+    background-color: #c33;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu {
+    color: #FFF;
+    list-style: none;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: row;
+
+} 
+
+.logo {
+    width: auto;
+    height: 100%;
+    position: absolute;
+    transform: translateX(-50%) scale(2);
+    right: 0;
+    top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.menu-item {
+    line-height: 55px;
+    margin: 0 15px;
+    position: relative;
+}
+
+main {
+    flex-basis: 80%;
+}
+/*
+=============================================
+            3. MAIN SECTION
+=============================================
+*/
+
+#main-section {
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+}
+
+.main-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    display: flex;
+}
+
+.main-news {
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex-basis: 600px;
+    flex-shrink: 1;
+}
+
+
+.main-news-container {
+    display: flex;
+    justify-content: center;
+}
+.secondary-main-news-container {
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+
+.less-relevant-main-news {
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-basis: 200px;
+    align-items: center;
+
+}
+
+.less-relevant-main-news-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    justify-content: space-between;
+    align-items: center;
+}
+
+aside {
+    margin-left: 40px;
+    background: #FAFAFA;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex-basis: 20%;
+}
+
+.small-news + .small-news {
+    margin-top: 10px;
+    border-top: 1px solid #d0d0d0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+}
+
+.small-news {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+}
+
+
+
+/*
+=============================================
+            4. VIDEOS SECTION
+=============================================
+*/
+
+#videos-section {
+    background-color: #000;
+    margin: 50px 0;
+    max-width: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.video-title {
+    color: #FFF;
+    text-align: center;
+    font-size: 52px;
+    
+}
+
+.videos-container {
+    display: flex;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.video-container {
+    flex-basis: 280px;
+    margin-bottom: 50px;
+}
+
+.video-container img {
+    border: 5px solid #FFF;
+    box-sizing: border-box;
+}
+
+.video-container h3 {
+    color: #FFF;
+}
+
+/*
+=============================================
+            5. MORE NEWS SECTION
+=============================================
+*/
+
+#more-news {
+    display: flex;
+    justify-content: center;
+}
+
+.more-news-container {
+    display: flex;
+    justify-content: center;
+}
+
+.more-news-main-column {
+    padding: 10px 20px; 
+}
+
+.more-news-secondary-column article,
+.more-news-main-column article {
+    padding: 10px;
+}
+
+.more-news-secondary-column article + article,
+.more-news-main-column article + article {
+    margin-top: 10px;
+    border-top: 1px solid #d0d0d0;
+}
+
+.more-news-main-column article:nth-of-type(1) h1 {
+    font-size: 38px;
+    margin: 15px 0;
+}
+
+.more-news-main-column article:nth-of-type(2) img {
+    max-width: 250px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.more-news-main-column .text-container h2 {
+    margin-top: 0;
+}
+
+.more-news-aside {
+    margin-left: 0;
+}
+
+.more-news-main-column {
+    border-right: 1px solid #d0d0d0;
+    border-left: 1px solid #d0d0d0;
+    margin: 0 20px;
+}
+
+.thumbnail-container {
+    min-width: 200px;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.thumbnail {
+    width: 60px;
+    height: 60px;
+}
+
+.thumbnail-description {
+    margin: 0 0 0 10px;
+
+}
+
+/*
+=============================================
+            6. FOOTER
+=============================================
+*/
+
+footer {
+    width: 100%;
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 4px solid #c3333c;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-links-container {
+    max-width: 1200px;
+    display: flex;
+    flex-grow: 1;
+}
+
+.footer-links {
+    padding: 0;
+    list-style: none;
+}
+
+.footer-links-column {
+    margin: 0 20px;
+    flex-basis: 100px;
+}
+
+.footer-link-title {
+    color: #2A2A2A;
+    font-size: 15px;
+}
+
+.footer-link {
+    font-family: 'Proxima Nova';
+    font-size: 13px;
+    color: #BEBEBE;
+}
+
+@media (max-width:1130px) {
+    .less-relevant-main-news-container {
+        justify-content: space-evenly;
+        margin: 0 37px;
+    }
+
+    aside {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+
+    }
+
+    #main-section {
+        flex-direction: column;
+    }
+
+    .small-news + .small-news{
+        border-top: none;
+        margin: 0;
+        border-left: 1px solid #d0d0d0;
+        padding-left: 15px;
+        text-align: center;
+    }
+
+    .small-news {
+        text-align: center;
+    }
+
+
+}

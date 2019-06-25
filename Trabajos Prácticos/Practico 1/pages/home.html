@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mi Blog de Cocina</title>
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono|Indie+Flower" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="../tp-results/result.css">
+    <script src="../tp-results/result.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="../styles/css/main.css">
+</head>
+<body>
+    <header>
+        <h1>Mi Blog de Cocina</h1>
+    </header>
+    <!--si la clase del div hace referencia al nav, tendría más sentido colocarlo dentro de la etiqueta nav-->
+    <div class="nav-menu">
+        <p><i class="fas fa-bars"></i>MENU</p>
+    </div>
+    <nav class="nav-bar">
+        <ul class="nav-ul">
+            <!--en un menú de navegación todos los elementos deben funcionar como enlaces-->
+            <li class="nav-li"><a href="home.html">HOME</a></li>
+            <li class="nav-li plato" id="plat">PLATOS <i class="fas fa-caret-down"></i>
+                <ul class="subul">
+                    <li class="subli"><a href="receta.html">Ensalada</a></li>
+                    <li class="subli">Carne</li>
+                    <li class="subli">Helado</li>
+                </ul>
+            </li>
+            <li class="nav-li">SOBRE MÍ</li>
+            <li class="nav-li">CONTACTO</li>
+        </ul>
+    </nav>
+    <div class="slide">
+        <!--todos los elementos debían tener animación-->
+        <a href="receta.html"><img id="img-mobile" src="../images/img-1.jpg"></a>
+        <img src="../images/img-2.jpg">
+        <img src="../images/img-3.jpg">
+        <div class="transition">
+            <img src="../images/img-4.jpg">
+            <div class="transition-container">
+                <h4>Diciembre 23, 2017 | 21 comentarios</h4>
+                <h1>"Unas tostadas sabrosas para arrancar bien el día"</h1>
+            </div>
+        </div>
+    </div>
+    <main>
+        <section>
+            <div class="categories">
+                <div class="main-links">
+                    <div id="mobile-container1" class="container-text">
+                        <img id="mobile-img1" src="../images/platos.jpg">
+                        <div class="link-text">
+                            <p class="p-text">Platos</p>
+                        </div>
+                    </div>
+                    <div id="mobile-container2" class="container-text">
+                        <img id="mobile-img2" src="../images/recetas.JPG">
+                        <div class="link-text">
+                            <a href="receta.html"><p class="p-text">Recetas</p></a>
+                        </div>
+                    </div>
+                    <div class="container-text">
+                        <img id="mobile-img3" src="../images/exoticos.JPG">
+                        <div id="mobile-p3" class="link-text">
+                            <p class="p-text">Exoticos</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="aside-articles">
+                <div class="video-articles-container">
+                    <div class="video">
+                        <iframe width="766" height="497" src="https://www.youtube.com/embed/D1YCPO3vMMw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>Tu navegador no admite este video</iframe>
+                        <p><time datetime="2019-04-20">20 de abril │</time> ¿Cómo realizar una torta de Chewbacca perfecta?</p>
+                    </div>
+                    <div class="main-articles">
+                        <article class="article1">
+                            <img src="../images/nota1.JPG">
+                            <div class="post-info">
+                                <div class="content-info">
+                                    <p>by Abril │ <time datetime="2019-05-14">Mayo 14, 2019</time></p>
+                                    <div class="fa-content">
+                                        <!--todos los íconos debían tener links-->
+                                        <i class="far fa-heart">20</i>
+                                        <i class="far fa-comments">10</i>
+                                        <i class="fas fa-share-alt"></i>
+                                    </div>
+                                </div>
+                                <h3>Delicias Dulces</h3>
+                                <h4>En este artículo podrás ver una receta de Pastel cordobés de jamón serrano simple, sana y muy rica!</h4>
+                                <a class="read-more" href="receta.html">Leer más</a>
+                            </div>
+                        </article>
+                        <article class="article2">
+                            <img src="../images/nota2.JPG">
+                            <div class="post-info">
+                                <div class="content-info">
+                                    <p>by Abril │ <time datetime="2019-05-13">Mayo 13, 2019</time></p>
+                                    <div class="fa-content">
+                                        <i class="far fa-heart">43</i>
+                                        <i class="far fa-comments">70</i>
+                                        <i class="fas fa-share-alt"></i>
+                                    </div>
+                                </div>
+                                <h3>Comidas Simples</h3>
+                                <h4>En este artículo podrás ver una receta de Pastel de pan de molde gratinado simple, sana y muy rica!</h4>
+                                <a class="read-more" href="receta.html">Leer más</a>
+                            </div>  
+                        </article>
+                    </div>
+                </div>
+                <aside>
+                    <p>SOBRE MÍ</p>
+                    <div class="container-aside">
+                        <img src="../images/author-image.jpg">
+                        <div class="container-text">
+                            <h3>Abril Quiroga</h3>
+                            <h4>Me llamo Abril, tengo 25 años, y vivo en Buenos Aires. ¡Amo cocinar y quiero compartirles ese amor por la cocina a ustedes!</h4>
+                        </div>
+                    </div>
+                    <p>NEWSLETTER</p>
+                </aside>
+            </div> 
+        </section>
+        <footer class="social-networks">
+            <!--sugerencia: los elementos podrían estar contenidos por el footer directamente, sin necesidad de tener el div footer-list-->
+            <div class="footer-list">
+                <ul class="footer-ul">
+                    <!--los estilos no aplican a todos los elementos de la lista-->
+                    <li class="footer-li"><a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i><p>FACEBOOK</p></a></li>
+                    <li class="footer-li second"><a href="https://www.twitter.com"><i class="fab fa-twitter"></i><p>TWITTER</p></a></li>
+                    <li class="footer-li second"><a href="https://www.google.com"><i class="fab fa-google-plus-g"></i><p>GOOGLE+</p></a></li>
+                    <li class="footer-li second"><a href="https://www.facebook.com"><i class="fab fa-linkedin"></i><p>LINKEDIN</p></a></li>
+                    <li class="footer-li second"><a href="https://www.instagram.com"><i class="fab fa-instagram"></i><p>INSTAGRAM</p></a></li>
+                    <li class="footer-li second"><a href="https://www.youtube.com"><i class="fab fa-youtube"></i><p>YOUTUBE</p></a></li>
+                </ul>
+                <div class="back-icon"></div><!--este div no estaría cumpliendo ninguna función-->
+                <a href="home.html"><i id="icon-footer" class="fas fa-arrow-circle-up"></i></a>
+            </div>
+        </footer>
+    </main>
+</body>
+</html>
