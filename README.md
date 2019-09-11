@@ -1,2 +1,2 @@
 # ada
-Ejercicios, trabajos, examples
+exercise, tp's, examples
