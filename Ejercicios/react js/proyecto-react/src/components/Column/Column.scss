@@ -1,0 +1,16 @@
+.column{
+    width: 250px;
+    border-radius: 5px;
+    background-color: #d6d5d5;;
+    padding: 5px; 
+    margin: 0 10px;
+    height: 437px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    .column-title{
+        margin: 0;
+    }
+    
+}
